@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark text */
+    text-align: center; /* Center all text and main sections */
+}
+
+/* Header style */
+header {
+    background-color: #FF6347;
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8em;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.info-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-bottom: 1px dashed #ccc; /* dashed line to separate */
+}
+
+.info-section:last-child {
+    border-bottom: none;
+}
+
+.info-section h2 {
+    color: #4682B4;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+/* Image styling */
+.hobby-images {
+    display: flex; /* Arranges images in a row */
+    justify-content: center; /* Centers images horizontally */
+    gap: 20px; /* Space between images */
+    margin-top: 20px;
+}
+
+.hobby-images img {
+    width: 200px; /* Fixed width for images */
+    height: 150px; /* Fixed height for images */
+    object-fit: cover;
+    border: 3px solid #FFD700; /* Border */
+    border-radius: 8px; /* Slightly rounded corners */
+}
+
+/* Fun facts list */
+ul {
+    list-style: none; /* Removes default bullet points */
+    padding: 0;
+}
+
+li {
+    background-color: #E0FFFF;
+    margin: 10px auto; /* Space between facts */
+    padding: 10px;
+    border-left: 5px solid #00BFFF;
+    border-radius: 5px;
+    max-width: 500px; /* Max width for fact boxes */
+    text-align: left; /* Align text left within fact boxes */
+}
+
+/* Footer style */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
