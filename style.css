@@ -1,15 +1,15 @@
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Verdana, sans-serif;
     margin: 0;
-    background-color: #f0f0f0; /* Light gray background */
+    background-color: #A9A9A9; /* Light gray background */
     color: #333; /* Dark text */
     text-align: center; /* Center all text and main sections */
 }
 
 /* Header style */
 header {
-    background-color: #FF6347;
+    background-color: #2F4F4F;
     color: white;
     padding: 20px 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
@@ -46,25 +46,24 @@ main {
     margin-bottom: 15px;
 }
 
-/* Image styling */
 .hobby-images {
-    display: flex; /* Arranges images in a row */
-    justify-content: center; /* Centers images horizontally */
-    gap: 20px; /* Space between images */
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
     margin-top: 20px;
 }
 
 .hobby-images img {
-    width: 200px; /* Fixed width for images */
-    height: 150px; /* Fixed height for images */
+    width: 200px; 
+    height: 150px; 
     object-fit: cover;
-    border: 3px solid #FFD700; /* Border */
+    border: 3px solid #F8F8FF; 
     border-radius: 8px; /* Slightly rounded corners */
 }
 
 /* Fun facts list */
 ul {
-    list-style: none; /* Removes default bullet points */
+    list-style: none; 
     padding: 0;
 }
 
@@ -72,7 +71,7 @@ li {
     background-color: #E0FFFF;
     margin: 10px auto; /* Space between facts */
     padding: 10px;
-    border-left: 5px solid #00BFFF;
+    border-left: 5px solid #000000;
     border-radius: 5px;
     max-width: 500px; /* Max width for fact boxes */
     text-align: left; /* Align text left within fact boxes */
