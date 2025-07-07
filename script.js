@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Create the button that will toggle the extra fact
         const revealButton = document.createElement('button');
-        revealButton.textContent = "Another fun fact";
+        revealButton.textContent = "Another fact";
 
         revealButton.style.backgroundColor = '#4682B4';
         revealButton.style.color = 'white';
