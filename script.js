@@ -5,9 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (factList) {
         // Create a new list item for the extra fact, but keep it hidden initially
         const extraFactItem = document.createElement('li');
-        extraFactItem.textContent = "My spirit animal is definitely a golden retriever!"; // Your bonus fun fact!
-        extraFactItem.style.display = 'none'; // This hides it from view
-        factList.appendChild(extraFactItem); // Add it to the list on the page
+        extraFactItem.textContent = "I've been to 20 countries!"; 
+        extraFactItem.style.display = 'none'; 
+        factList.appendChild(extraFactItem); 
 
         // Create the button that will toggle the extra fact
         const revealButton = document.createElement('button');
